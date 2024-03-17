@@ -14,7 +14,7 @@ html,body,main{
     width: 100%;
     display: flex;
     justify-content: flex-end;
-    padding: 10px;
+    padding: 30px 40px;
 }
 #menu p{
     background-color: black;
@@ -22,7 +22,7 @@ html,body,main{
     margin-left: 3px;
     border-radius: 30px;
     padding: 10px;
-    font-size: 18px;
+    font-size: 15px;
 
 }
 #intro{
@@ -38,11 +38,15 @@ html,body,main{
 #place{
     display: flex;
     justify-content: space-between;
+    margin: 3px;
 }
 #place p{
     font-size: 20px;
-letter-spacing:1px ;
+    letter-spacing:1px ;
+   
 }
 #image{
-    background-image: ;
+    height: 70%;
+    width: 100%;
+    background-color: antiquewhite;
 }
