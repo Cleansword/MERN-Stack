@@ -11,3 +11,9 @@ fs.writeFile("sagar.txt","hello sagar, are you working with the fole and path?",
     })
 })
 console.log("ending")
+
+//appending some data to the file
+
+fs.appendFile("sagar.txt"," off course yes ",(e,d)=>{
+    console.log(d)
+})
