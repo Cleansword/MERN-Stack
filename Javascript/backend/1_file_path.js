@@ -14,6 +14,6 @@ console.log("ending")
 
 //appending some data to the file
 
-fs.appendFile("sagar.txt"," off course yes ",(e,d)=>{
-    console.log(d)
+fs.appendFile("sagar.txt"," off course yes ",(error,data)=>{
+    console.log(data)
 })
